@@ -19,12 +19,9 @@ class Extension extends BaseExtension
     public function listen(Dispatcher $events)
     {
         $events->listen(RegisterLocales::class, function (RegisterLocales $event) {
-            // $event->addLocale('nl', 'Nederlands');
-            // $event->addJsFile('nl', __DIR__.'/../locale/core.js');
-            // $event->addConfig('nl', __DIR__.'/../locale/core.php');
-            $event->manager->addLocale('nl', 'Nederlands');
-            $event->manager->addJsFile('nl', __DIR__.'/../locale/core.js');
-            $event->manager->addConfig('nl', __DIR__.'/../locale/core.php');
+            $event->addLocale('nl', 'Nederlands');
+            $event->addJsFile('nl', __DIR__.'/../locale/core.js');
+            $event->addConfig('nl', __DIR__.'/../locale/core.php');
             $event->addTranslations('nl', __DIR__.'/../locale/core.yml');
             $event->addTranslations('nl', __DIR__.'/../locale/likes.yml');
             $event->addTranslations('nl', __DIR__.'/../locale/lock.yml');
