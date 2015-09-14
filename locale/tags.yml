@@ -1,0 +1,20 @@
+tags:
+  tags: Tags
+  discussion_tagged_post:
+    one: "{username} {action} tag."
+    other: "{username} {action} tags."
+  added_tags: "heeft {tags} toegevoegd"
+  removed_tags: "heeft {tags} verwijderd"
+  tag_new_discussion_title: Kies tags voor je discussie
+  tag_new_discussion_link: Kies tags
+  edit_discussion_tags_title: "Wijzig tags voor {title}"
+  edit_discussion_tags_link: Wijzig tags
+  choose_primary_tags:
+    one: Kies een primaire tag
+    other: "Kies {count} primaire tags"
+  choose_secondary_tags:
+    one: Kies nog een tag
+    other: "Kies nog {count} tags"
+  confirm: Bevestigen
+  more: Meer...
+  deleted: Verwijderd

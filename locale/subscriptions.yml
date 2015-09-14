@@ -1,0 +1,13 @@
+subscriptions:
+  following: Volgend
+  ignoring: Negerend
+  follow: Volg
+  unfollow: Stoppen met volgen
+  ignore: Negeren
+  notify_new_post: Iemand heeft in een discussie die ik heb gestart gepost
+  new_post_notification: "{username} heeft gepost"
+  not_following: Niet volgend
+  not_following_description: Word op de hoogte gesteld wanneer je @genoemd wordt.
+  following_description:  Word op de hoogte gesteld van alle reacties.
+  ignoring_description: Word niet op de hoogte gesteld. Verberg van de discussielijst.
+  unignore: Stoppen met negeren

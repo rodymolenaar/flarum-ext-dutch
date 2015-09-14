@@ -1,0 +1,12 @@
+likes:
+  post_liked_notification: "{username} vind je bericht leuk"
+  post_likes_modal_title: Gebruikers die dit leuk vinden
+  post_liked_by_self: "{users} vindt dit leuk."
+  post_liked_by:
+    one: "{users} vindt dit leuk."
+    other: "{users} vinden dit leuk."
+  unlike_action: Unlike
+  like_action: Like
+  notify_post_liked: Iemand vindt mijn bericht leuk
+  others: "{count} anderen"
+  you: Jij
