@@ -30,7 +30,7 @@ Released under the MIT License. Please see the [LICENSE](https://github.com/mael
 
 ## Downloads
 
-### :nl: [Latest Dutch Extension Development Version](https://github.com/maelsoucaze/flarum/archive/master.zip)
+### [Latest Dutch Extension Development Version](https://github.com/maelsoucaze/flarum/archive/master.zip)
 
 This release may be incompatible with the current releases, based on latest development versions of the software and its supported extensions. It is available for testing purposes to developers or advanced and inquisitive users. Use it at your own risk!
 
