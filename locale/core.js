@@ -30,7 +30,7 @@ moment.locale('nl', {
     sameElse: 'L'
   },
   relativeTime : {
-    future : 'in %s',
+    future : 'op %s',
     past : '%s geleden',
     s : 'een paar seconden',
     m : 'een minuut',
