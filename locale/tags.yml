@@ -1,8 +1,8 @@
 tags:
   tags: Tags
   discussion_tagged_post:
-    one: "{username} {action} tag."
-    other: "{username} {action} tags."
+    one: "{username} {action}."
+    other: "{username} {action}."
   added_tags: "heeft {tags} toegevoegd"
   removed_tags: "heeft {tags} verwijderd"
   tag_new_discussion_title: Kies tags voor je discussie
