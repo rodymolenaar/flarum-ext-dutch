@@ -1,5 +1,3 @@
-#Note: This extension does not work with the current beta release
-
 # Dutch Extension for [Flarum](http://flarum.org/)
 
 Extension to localize the Flarum forum software and its official extensions into Dutch.
