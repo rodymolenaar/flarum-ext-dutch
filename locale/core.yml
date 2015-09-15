@@ -1,7 +1,7 @@
 core:
   account: Account
   activity: Activiteit
-  administration: Administratie
+  administration: Beheer
   alert: Waarschuwing
   all_discussions: Alle discussies
   before_log_in_link: Al een account?
@@ -67,7 +67,7 @@ core:
   password_reset_email_sent: We hebben een e-mail gestuurd met een link om uw wachtwoord opnieuw in te stellen. Als u geen e-mail hebt ontvangen controleer dan uw spam map.
   period_later: "{period} later"
   post_discussion: Post bericht
-  post_edited: "Bewerkt {ago} door {username}"
+  post_edited: "{ago} bewerkt door {username}"
   post_number: "Bericht #{number}"
   post_reply: Post een reactie
   posts: Berichten
@@ -77,23 +77,23 @@ core:
   prompt_rename_discussion: Nieuwe titel voor deze discussie:
   recover_password: Wachtwoord opvragen
   refresh: Verversen
-  remove: Verwijder
+  remove: Verwijderen
   rename: Hernoemen
   reply: Reageer
   reply_posted: Je reactie is gepost.
   restore: Ongedaan maken
   save_changes: Aanpassingen opslaan
-  search_all_discussions: 'Doorzoek alle discussie voor "{query}"'
-  search_forum: Doorzoek het hele forum
+  search_all_discussions: 'Zoek in alle discussies naar "{query}"'
+  search_forum: Zoeken
   send_password_reset_email: Stuur e-mail voor het opnieuw instellen van het wachtwoord
   settings: Instellingen
   sign_up: Aanmelden
   sort_latest: Recent
   sort_newest: Nieuw
-  sort_oldest: Oudste
+  sort_oldest: Oud
   sort_relevance: Relevantie
   sort_top: Populair
-  start_a_discussion: Start een nieuwe discussie
+  start_a_discussion: Nieuwe discussie
   unread_posts: "{count} ongelezen"
   upload: Upload
   username: Gebruikersnaam
