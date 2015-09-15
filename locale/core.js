@@ -24,10 +24,25 @@ moment.locale('nl', {
   calendar : {
     sameDay: '[Vandaag om] LT',
     nextDay: '[Morgen om] LT',
-    nextWeek: 'dddd [à] LT',
+    nextWeek: 'dddd [om] LT',
     lastDay: '[Gisteren om] LT',
     lastWeek: 'dddd [om] LT',
     sameElse: 'L'
+  },
+  relativeTime : {
+    future : 'in %s',
+    past : '%s geleden',
+    s : 'een paar seconden',
+    m : 'een minuut',
+    mm : '%d minuten',
+    h : 'een uur',
+    hh : '%d uur',
+    d : 'een dag',
+    dd : '%d dagen',
+    M : 'een maand',
+    MM : '%d maanden',
+    y : 'een jaar',
+    yy : '%d jaar'
   },
   ordinalParse: /\d{1,2}(er|)/,
   ordinal : function (number) {
