@@ -18,7 +18,7 @@ core:
   confirm_discard_edit: Je hebt je aanpassingen niet opgeslagen. Wil je deze weggooien?
   confirm_discard_reply: Je hebt je reactie niet gepost. Wil je deze weggooien?
   confirmation_email_sent: "We hebben een e-mail gestuurd naar {email}. Als u geen e-mail hebt ontvangen controleer dan uw spam map."
-  controls: Besturing
+  controls: Acties
   delete: Verwijderen
   delete_forever: Permanent verwijderen
   deleted: "[verwijderd]"
