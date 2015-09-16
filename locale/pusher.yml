@@ -1,4 +1,4 @@
 pusher:
   show_updated_discussions:
-    one: "Laat {count} een bijgewerkte disccussie zien"
-    other: "Laat {count} een bijgewerkte disccussies zien"
+    one: "Laat {count} bijgewerkte disccussie zien"
+    other: "Laat {count} bijgewerkte disccussies zien"
