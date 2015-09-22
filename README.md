@@ -7,12 +7,13 @@ This extension uses the French language extension as a base for continuity.
 
 ### Version
 
-- 0.1.0-dev (Build 1)
+- 0.1.0-dev (Build 2)
 - Released on September 14, 2015
 
 ### Compatibility
 
 - [Flarum](https://github.com/flarum/core) (Core) 0.1.0-beta.2
+	- [Likes](https://github.com/flarum/flags) 0.1.0-beta.2
 	- [Likes](https://github.com/flarum/likes) 0.1.0-beta.2
 	- [Lock](https://github.com/flarum/lock) 0.1.0-beta.2
 	- [Mentions](https://github.com/flarum/mentions) 0.1.0-beta.2

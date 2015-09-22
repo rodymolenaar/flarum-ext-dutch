@@ -1,0 +1,8 @@
+flags:
+  reason_off_topic: Off-topic
+  reason_spam: Spam
+  reason_inappropriate: Ongepast
+  reason_other: Overig
+  flagged_by: "{username} gerapporteerd"
+  flagged_by_with_reason: "{username} gerapporteerd als {reason}"
+  no_flags: Niets gerapporteerd

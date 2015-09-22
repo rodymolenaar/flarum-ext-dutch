@@ -23,6 +23,7 @@ class Extension extends BaseExtension
             $event->addJsFile('nl', __DIR__.'/../locale/core.js');
             $event->addConfig('nl', __DIR__.'/../locale/core.php');
             $event->addTranslations('nl', __DIR__.'/../locale/core.yml');
+            $event->addTranslations('nl', __DIR__.'/../locale/flags.yml');
             $event->addTranslations('nl', __DIR__.'/../locale/likes.yml');
             $event->addTranslations('nl', __DIR__.'/../locale/lock.yml');
             $event->addTranslations('nl', __DIR__.'/../locale/mentions.yml');
