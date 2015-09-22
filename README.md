@@ -58,4 +58,4 @@ Thank you a lot to wish to contribute. It means a lot. Using and enjoying the lo
 - Open [issues](https://github.com/rodymol123/Flarum-nl-NL/issues) on GitHub. Because the localization will be better with your feedbacks.
 - Open pull requests on GitHub. Submit fixes and improvements and be listed as [contributor](https://github.com/rodymol123/Flarum-nl-NL/graphs/contributors)!
 - [Join the discussion about the extension](http://discuss.flarum.org/d/758-dutch-translation) on the Flarum community.
-- [Follow me on Twitter](https://twitter.com/rodymol123).
+- [Follow me on Twitter](https://twitter.com/rodymolenaar).
