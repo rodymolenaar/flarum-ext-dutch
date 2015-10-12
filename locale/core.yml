@@ -14,9 +14,9 @@ core:
   change_password_help: Klik op onderstaande knop en controleer op een e-mail met een link om je wachtwoord te veranderen.
   close: Sluiten
   confirm_delete_discussion: Weet je zeker dat je deze discussie wilt verwijderen?
-  confirm_discard_discussion: Je hebt je discussie niet gepost. Wil je deze weggooien?
+  confirm_discard_discussion: Je hebt je discussie niet geplaatst. Wil je deze weggooien?
   confirm_discard_edit: Je hebt je aanpassingen niet opgeslagen. Wil je deze weggooien?
-  confirm_discard_reply: Je hebt je reactie niet gepost. Wil je deze weggooien?
+  confirm_discard_reply: Je hebt je reactie niet geplaatst. Wil je deze weggooien?
   confirmation_email_sent: "We hebben een e-mail gestuurd naar {email}. Als u geen e-mail hebt ontvangen controleer dan uw spam map."
   controls: Acties
   delete: Verwijderen
@@ -40,8 +40,8 @@ core:
   forgot_password_link: Wachtwoord vergeten?
   full_screen: Volledig scherm
   go_to: "Ga naar {location}"
-  group_admin: Administrator
-  group_admins: Administrators
+  group_admin: Beheerder
+  group_admins: Beheerders
   group_guest: Gast
   group_guests: Gasten
   group_member: Lid
@@ -66,13 +66,13 @@ core:
   password: Wachtwoord
   password_reset_email_sent: We hebben een e-mail gestuurd met een link om uw wachtwoord opnieuw in te stellen. Als u geen e-mail hebt ontvangen controleer dan uw spam map.
   period_later: "{period} later"
-  post_discussion: Post bericht
+  post_discussion: Plaats bericht
   post_edited: "{ago} bewerkt door {username}"
   post_number: "Bericht #{number}"
   post_reply: Post een reactie
   posts: Berichten
   powered_by_flarum: Aangedreven door Flarum
-  privacy: Privacu
+  privacy: Geheimhouding
   profile: Profiel
   prompt_rename_discussion: Nieuwe titel voor deze discussie:
   recover_password: Wachtwoord opvragen
@@ -80,7 +80,7 @@ core:
   remove: Verwijderen
   rename: Hernoemen
   reply: Reageer
-  reply_posted: Je reactie is gepost.
+  reply_posted: Je reactie is geplaatst.
   restore: Ongedaan maken
   save_changes: Aanpassingen opslaan
   search_all_discussions: 'Zoek in alle discussies naar "{query}"'
