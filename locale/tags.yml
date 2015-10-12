@@ -1,5 +1,5 @@
 tags:
-  tags: labels
+  tags: Labels
   discussion_tagged_post:
     one: "{username} {action}."
     other: "{username} {action}."
