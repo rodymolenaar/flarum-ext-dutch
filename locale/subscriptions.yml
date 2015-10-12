@@ -4,8 +4,8 @@ subscriptions:
   follow: Volg
   unfollow: Stoppen met volgen
   ignore: Negeren
-  notify_new_post: Iemand heeft in een discussie die ik heb gestart gepost
-  new_post_notification: "{username} heeft gepost"
+  notify_new_post: Iemand heeft in een discussie die ik heb gestart gereageerd
+  new_post_notification: "{username} heeft gereageerd"
   not_following: Niet volgen
   not_following_description: Word op de hoogte gesteld wanneer je @genoemd wordt.
   following_description:  Word op de hoogte gesteld van alle reacties.
