@@ -40,13 +40,13 @@ validation:
   not_in: "Het geselecteerde :attribute is ongeldig."
   numeric: ":attribute moet een nummer zijn."
   regex: ":attribute formaat is ongeldig."
-  required: ":attribute veld is vereist."
-  required_if: ":attribute veld is vereist wanneer :other :value is."
-  required_with: ":attribute veld is vereist wanneer :values aanwezig is."
-  required_with_all: ":attribute veld is vereist wanneer :values aanwezig zijn."
-  required_without: ":attribute veld is vereist wanneeer :values niet aanwezig is."
-  required_without_all: ":attribute veld is vereist wanneer geen enkele van :values aanwezig zijn."
-  same: ":attribute en :other moeten overeen komen."
+  required: "Het :attribute veld is vereist."
+  required_if: "Het :attribute veld is vereist wanneer :other :value is."
+  required_with: "Het :attribute veld is vereist wanneer :values aanwezig is."
+  required_with_all: "Het :attribute veld is vereist wanneer :values aanwezig zijn."
+  required_without: "Het :attribute veld is vereist wanneeer :values niet aanwezig is."
+  required_without_all: "Het :attribute veld is vereist wanneer geen enkele van :values aanwezig zijn."
+  same: "Het :attribute en :other moeten overeen komen."
   size:
     numeric: ":attribute moet :size zijn."
     file: ":attribute moet :size kilobytes zijn."
@@ -58,10 +58,10 @@ validation:
   url: ":attribute formaat is ongeldig."
 
   attributes:
-    username: het gebruikersnaam
-    password: het wachtwoord
-    email: het e-mailadres
-    title: de titel
-    content: de inhoud
-    name_singular: de naam enkelvoud
-    name_plural: de naam meervoud
+    username: gebruikersnaam
+    password: wachtwoord
+    email: e-mailadres
+    title: titel
+    content: inhoud
+    name_singular: naam enkelvoud
+    name_plural: naam meervoud
