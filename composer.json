@@ -1,10 +1,35 @@
 {
-    "autoload": {
-        "psr-4": {
-            "Holland\\": "src/"
+    "name": "rodymol123/Flarum-nl-NL",
+    "type": "flarum-extension",
+    "description": "Dutch language pack.",
+    "homepage": "https://github.com/rodymol123/Flarum-nl-NL",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rody Molenaar",
+            "email": "rody.molenaar@xtrada.nl",
+            "homepage": "http://www.rodymol123.eu/",
+            "role": "Translator"
         }
+    ],
+    "support": {
+        "issues": "https://github.com/rodymol123/Flarum-nl-NL/issues",
+        "source": "https://github.com/rodymol123/Flarum-nl-NL"
     },
-    "scripts": {
-        "style": "phpcs --standard=PSR2 -np src"
+    "extra": {
+        "flarum-extension": {
+            "title": "Dutch",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#fff",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "nl",
+            "title": "Nederlands"
+        }
     }
 }
