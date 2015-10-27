@@ -16,7 +16,7 @@ flarum-tags:
       color_label: Kleur
       description_label: Beschrijving
       delete_tag_button: Verwijder label
-      delete_tag_confirmation: Weet je zeker dat je dit label wilt verwijderen? De bijbehorende discussie zal NIET worden verwijderd.
+      delete_tag_confirmation: Weet je zeker dat je dit label wilt verwijderen? De bijbehorende discussie zal NIET worden verwijdert.
       hide_label: Verbergen voor alle discussies
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
