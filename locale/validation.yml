@@ -1,3 +1,7 @@
+# Custom Dutch Laravel Localization
+# Based on: https://github.com/caouecs/Laravel-lang/tree/master/nl
+# Source: https://github.com/laravel/laravel/tree/master/resources/lang/en
+
 validation:
   accepted: ":attribute moet worden geacepteerd."
   active_url: ":attribute is geen geldige URL."
@@ -20,10 +24,10 @@ validation:
   digits: ":attribute moet :digits getallen bevatten."
   digits_between: ":attribute moet tussen de :min en :max getallen bevatten."
   email: ":attribute moet een geldig e-mailadres zijn."
-  exists: "Het geselecteerde :attribute is ongeldig."
-  filled: "Het :attribute veld is vereist."
+  exists: ":attribute is ongeldig."
+  filled: ":attribute is vereist."
   image: ":attribute moet een afbeelding zijn."
-  in: "Het geselecteerde :attribute is ongeldig."
+  in: ":attribute is ongeldig."
   integer: ":attribute moet een integer zijn."
   ip: ":attribute moet een geldig IP-adres zijn."
   json: ":attribute moet een geldige JSON string zijn."
@@ -37,16 +41,16 @@ validation:
     numeric: ":attribute moet tenminste :min zijn."
     file: ":attribute moet tenminste :min kilobytes zijn."
     array: ":attribute moet tenminste :min items bevatten."
-  not_in: "Het geselecteerde :attribute is ongeldig."
+  not_in: ":attribute is ongeldig."
   numeric: ":attribute moet een nummer zijn."
   regex: ":attribute formaat is ongeldig."
-  required: "Het :attribute veld is vereist."
-  required_if: "Het :attribute veld is vereist wanneer :other :value is."
-  required_with: "Het :attribute veld is vereist wanneer :values aanwezig is."
-  required_with_all: "Het :attribute veld is vereist wanneer :values aanwezig zijn."
-  required_without: "Het :attribute veld is vereist wanneeer :values niet aanwezig is."
-  required_without_all: "Het :attribute veld is vereist wanneer geen enkele van :values aanwezig zijn."
-  same: "Het :attribute en :other moeten overeen komen."
+  required: ":attribute veld is vereist."
+  required_if: ":attribute is vereist wanneer :other :value is."
+  required_with: ":attribute is vereist wanneer :values aanwezig is."
+  required_with_all: ":attribute is vereist wanneer :values aanwezig zijn."
+  required_without: ":attribute is vereist wanneeer :values niet aanwezig is."
+  required_without_all: ":attribute is vereist wanneer geen enkele van :values aanwezig zijn."
+  same: ":attribute en :other moeten overeen komen."
   size:
     numeric: ":attribute moet :size zijn."
     file: ":attribute moet :size kilobytes zijn."
