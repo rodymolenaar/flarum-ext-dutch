@@ -37,7 +37,7 @@ This release may be incompatible with the current releases, based on latest deve
 
 Follow [these simple step-by-step instructions](http://flarum.org/docs/languages/) from the Flarum website.
 
-Note that all the unpacked content of the downloaded Dutch language pack archive must be uploaded into a **rodymol123-Flarum-nl-NL/** subdirectory (without the slash punctuation mark at the end) that you have to create in the **extensions/** directory.
+Note that all the unpacked content of the downloaded Dutch language pack archive must be uploaded into a **rodymol123-dutch/** subdirectory (without the slash punctuation mark at the end) that you have to create in the **extensions/** directory.
 
 ## Contributing
 
