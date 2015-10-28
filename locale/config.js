@@ -10,7 +10,7 @@ moment.locale('nl', {
   longDateFormat : {
     LT : 'HH:mm',
     LTS : 'HH:mm:ss',
-    L : 'DD/MM/YYYY',
+    L : 'DD-MM-YYYY',
     LL : 'D MMMM YYYY',
     LLL : 'D MMMM YYYY HH:mm',
     LLLL : 'dddd D MMMM YYYY HH:mm'
@@ -27,23 +27,23 @@ moment.locale('nl', {
     future : 'over %s',
     past : '%s geleden',
     s : 'een paar seconden',
-    m : 'een minuut',
+    m : 'één minuut',
     mm : '%d minuten',
-    h : 'een uur',
+    h : 'één uur',
     hh : '%d uur',
-    d : 'een dag',
+    d : 'één dag',
     dd : '%d dagen',
-    M : 'een maand',
+    M : 'één maand',
     MM : '%d maanden',
-    y : 'een jaar',
+    y : 'één jaar',
     yy : '%d jaar'
   },
-  ordinalParse: /\d{1,2}(er|)/,
+  ordinalParse: /\d{1,2}(ste|de)/,
   ordinal : function (number) {
-    return number + (number === 1 ? 'er' : '');
+    return number + ((number === 1 || number === 8 || number >= 20) ? 'ste' : 'de');
   },
   week : {
-    dow : 1,
-    doy : 4
+    dow : 1, // Monday is the first day of the week.
+    doy : 4  // The week that contains Jan 4th is the first week of the year.
   }
 });
