@@ -11,15 +11,19 @@ Extension to localize the Flarum forum software and its official extensions into
 ### Compatibility
 
 - [Flarum](https://github.com/flarum/core) (Core) v0.1.0-beta.4
-	- [Flags](https://github.com/flarum/flags) v0.1.0-beta.4
-	- [Likes](https://github.com/flarum/likes) v0.1.0-beta.3
-	- [Lock](https://github.com/flarum/lock) v0.1.0-beta.3
-	- [Mentions](https://github.com/flarum/mentions) v0.1.0-beta.3
-	- [Pusher](https://github.com/flarum/pusher) v0.1.0-beta.3
-	- [Reports](https://github.com/flarum/reports) v0.1.0-beta.4
-	- [Sticky](https://github.com/flarum/sticky) v0.1.0-beta.3
-	- [Subscriptions](https://github.com/flarum/subscriptions) v0.1.0-beta.4
-	- [Tags](https://github.com/flarum/tags) v0.1.0-beta.4
+  - Bundled extensions:
+	  - [Flags](https://github.com/flarum/flags) v0.1.0-beta.4
+	  - [Likes](https://github.com/flarum/likes) v0.1.0-beta.3
+	  - [Lock](https://github.com/flarum/lock) v0.1.0-beta.3
+	  - [Mentions](https://github.com/flarum/mentions) v0.1.0-beta.3
+	  - [Pusher](https://github.com/flarum/pusher) v0.1.0-beta.3
+	  - [Reports](https://github.com/flarum/reports) v0.1.0-beta.4
+	  - [Sticky](https://github.com/flarum/sticky) v0.1.0-beta.3
+	  - [Subscriptions](https://github.com/flarum/subscriptions) v0.1.0-beta.4
+  	- [Tags](https://github.com/flarum/tags) v0.1.0-beta.4
+    - Bundled libraries:
+      - [Laravel](https://github.com/laravel/laravel)'s Validation [5.1.11](https://github.com/laravel/laravel/releases/tag/v5.1.11)
+      - [Moment.js](https://github.com/moment/moment) [2.10.6](https://github.com/moment/moment/releases/tag/2.10.6)
 
 ### License
 
