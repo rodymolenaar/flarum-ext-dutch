@@ -12,16 +12,25 @@ flarum-flags:
       flag_posts_label: Rapporteer berichten
       view_flags_label: Bekijker gerapporteerde berichten
 
+    # These strings are used in the Flags Settings modal dialog.
+    settings:
+      guidelines_url_label: Gebruikers Richtlijnen URL
+      title: Rapportage instellingen
+
   # Strings in this namespace are used by the forum user interface.
   forum:
 
     # These strings are used by the Flag Post modal dialog.
     flag_post:
-      reason_heading: Kies een reden
+      confirmation_message: Bedankt voor het rapporteren van dit bericht. Onze beheerders zullen dit in behandeling nemen.
+      dismiss_button: => core.ref.okay
       reason_inappropriate_label: Ongepast
+      reason_inappropriate_text: "Dit bericht is beledigend, grof of schend onze <a>gebruikers richtlijnen</a>."
       reason_off_topic_label: Off-topic
+      reason_off_topic_text: Dit bericht is niet relevant aan de discussie en moet worden verplaatst.
       reason_other_label: Overig
       reason_spam_label: Spam
+      reason_spam_text: Dit bericht is een advertentie.
       submit_button: => flarum-flags.ref.flag_post
       title: => flarum-flags.ref.flag_post
 
