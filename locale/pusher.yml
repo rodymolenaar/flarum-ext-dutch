@@ -1,4 +1,0 @@
-pusher:
-  show_updated_discussions:
-    one: "Laat {count} bijgewerkte disccussie zien"
-    other: "Laat {count} bijgewerkte disccussies zien"

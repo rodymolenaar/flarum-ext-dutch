@@ -1,0 +1,100 @@
+flarum-tags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Strings in this namespace are used by the admin interface.
+  admin:
+
+    # These strings are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These strings are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: Kleur
+      description_label: Beschrijving
+      delete_tag_button: Verwijder label
+      delete_tag_confirmation: Weet je zeker dat je dit label wilt verwijderen? De bijbehorende discussie zal NIET worden verwijdert.
+      hide_label: Verbergen voor alle discussies
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: Link
+      submit_button: => core.ref.save_changes
+      title: => flarum-tags.ref.create_tag
+
+    # These strings are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: Beheer de lijst met beschikbare labels om je discussies mee te organiseren.
+
+    # These strings are used in the Permissions page of the admin interface.
+    permissions:
+      restrict_by_tag_heading: Beperken per label
+      tag_discussions_label: Label discussies
+
+    # These strings are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " tot "
+      required_primary_heading: Vereist aantal primaire labels
+      required_primary_text: Kies het minimale en maximale aantal van primaire labels die aan discussie toegevoegd mogen worden.
+      required_secondary_heading: Vereist aantal secundaire labels
+      required_secondary_text: Kies het minimale en maximale aantal van secundaire labels die aan discussie toegevoegd mogen worden.
+      title: Label instellingen
+
+    # These strings are used in the Tags page.
+    tags:
+      about_tags_text: Labels worden gebruikt voor het indelen van discussies. Primaire labels lijken op traditionele forum categorieën: ze kunnen worden gerangschikt op een twee-lagen hierarchie. Secondaire labels hebben geen hierarchie of volgorde en zijn erg handig voor micro-categorisatie.
+      create_tag_button: => flarum-tags.ref.create_tag
+      primary_heading: Primaire labels
+      secondary_heading: Secundaire labels
+      settings_button: Instellingen
+
+  # Strings in this namespace are used by the forum user interface.
+  forum:
+
+    # These strings are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "Kies een primaire label|Kies {count} primaire labels"
+      choose_secondary_placeholder: "Kies nog 1 extra label|Kies nog {count} extra labels"
+      edit_title: "Labels bewerken voor {title}"
+      submit_button: => core.ref.okay
+      title: Kies labels voor je discussie
+
+    # These strings are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: Kies labels
+
+    # These strings are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: Bewerk labels
+
+    # These strings are used on the index page, peripheral to the discussion list.
+    index:
+      tags_link: => flarum-tags.ref.tags
+      more_link: Meer...
+      untagged_link: Ongelabeld
+
+    # These strings are displayed between posts in the post stream.
+    post_stream:
+      added_tags_text: "{username} heeft de {tagsAdded} toegevoegd."
+      added_and_removed_tags_text: "{username} heeft de {tagsAdded} toegevoegd en de {tagsRemoved} verwijderd."
+      removed_tags_text: "{username} heeft de {tagsRemoved} verwijderd."
+      tags_text: "{tags} label|{tags} labels"
+
+  # Strings in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This string is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: Verwijderd
+
+  ##
+  # REUSED STRINGS - These keys should not be used directly in code!
+  ##
+
+  # Strings in this namespace are referenced by two or more unique keys.
+  ref:
+    create_tag: Maak label
+    name: Naam
+    tags: Labels

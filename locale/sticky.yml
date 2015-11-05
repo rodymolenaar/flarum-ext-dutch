@@ -1,8 +1,0 @@
-sticky:
-  discussion_stickied_notification: "{username} heeft vastgezet"
-  discussion_stickied_post: "{username} heeft de discussie vastgezet."
-  discussion_unstickied_post: "{username} heeft de discussie losgemaakt."
-  notify_discussion_stickied: Iemand heeft een discussie die ik gestart heb vasgezet
-  stickied: Vastgezet
-  sticky: Vastzetten
-  unsticky: Losmaken

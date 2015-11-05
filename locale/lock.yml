@@ -1,8 +1,0 @@
-lock:
-  discussion_locked_notification: "{username} heeft op slot gezet"
-  discussion_locked_post: "{username} heeft de discussie op slot gezet."
-  discussion_unlocked_post: "{username} heeft die discussie van het slot gehaald."
-  notify_discussion_locked: Iemand heeft een discussie die ik heb gestart op slot gezet.
-  locked: Op slot
-  lock: Sluiten
-  unlock: Slot weghalen
