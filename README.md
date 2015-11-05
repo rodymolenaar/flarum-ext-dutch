@@ -21,7 +21,7 @@ Extension to localize the Flarum forum software and its official extensions into
 	  - [Sticky](https://github.com/flarum/sticky) v0.1.0-beta.3
 	  - [Subscriptions](https://github.com/flarum/subscriptions) v0.1.0-beta.4
   	- [Tags](https://github.com/flarum/tags) v0.1.0-beta.4
-    - Bundled libraries:
+  - Bundled libraries:
       - [Laravel](https://github.com/laravel/laravel)'s Validation [5.1.11](https://github.com/laravel/laravel/releases/tag/v5.1.11)
       - [Moment.js](https://github.com/moment/moment) [2.10.6](https://github.com/moment/moment/releases/tag/2.10.6)
 
