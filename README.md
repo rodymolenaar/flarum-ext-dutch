@@ -10,16 +10,16 @@ Extension to localize the Flarum forum software and its official extensions into
 
 ### Compatibility
 
-- [Flarum](https://github.com/flarum/core) (Core) 0.1.0 Beta 3
-	- [Flags](https://github.com/flarum/flags) 0.1.0 Beta 3
-	- [Likes](https://github.com/flarum/likes) 0.1.0 Beta 3
-	- [Lock](https://github.com/flarum/lock) 0.1.0 Beta 3
-	- [Mentions](https://github.com/flarum/mentions) 0.1.0 Beta 3
-	- [Pusher](https://github.com/flarum/pusher) 0.1.0 Beta 3
-	- [Reports](https://github.com/flarum/reports) 0.1.0 Beta 3
-	- [Sticky](https://github.com/flarum/sticky) 0.1.0 Beta 3
-	- [Subscriptions](https://github.com/flarum/subscriptions) 0.1.0 Beta 3
-	- [Tags](https://github.com/flarum/tags) 0.1.0 Beta 3
+- [Flarum](https://github.com/flarum/core) (Core) v0.1.0-beta.4
+	- [Flags](https://github.com/flarum/flags) v0.1.0-beta.4
+	- [Likes](https://github.com/flarum/likes) v0.1.0-beta.3
+	- [Lock](https://github.com/flarum/lock) v0.1.0-beta.3
+	- [Mentions](https://github.com/flarum/mentions) v0.1.0-beta.3
+	- [Pusher](https://github.com/flarum/pusher) v0.1.0-beta.3
+	- [Reports](https://github.com/flarum/reports) v0.1.0-beta.4
+	- [Sticky](https://github.com/flarum/sticky) v0.1.0-beta.3
+	- [Subscriptions](https://github.com/flarum/subscriptions) v0.1.0-beta.4
+	- [Tags](https://github.com/flarum/tags) v0.1.0-beta.4
 
 ### License
 
