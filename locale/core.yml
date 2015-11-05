@@ -1,4 +1,4 @@
-ëcore:
+core:
 
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
@@ -347,6 +347,7 @@
 
   # Strings in this namespace are used in basic HTML interface.
   basic:
+    loading_text: Laden...
     load_error_message: Er ging iets mis bij het laden van de gehele site.
     javascript_disabled_message: Je kan deze website het beste bekijken met een moderne browser met JavaScript.
     next_page_button: Volgende pagina
