@@ -35,9 +35,8 @@ Released under the MIT License. Please see the [LICENSE](https://github.com/rody
 
 This release may be incompatible with the current releases, based on latest development versions of the software and its supported extensions. It is available for testing purposes to developers or advanced and inquisitive users. Use it at your own risk!
 
-## Documentation
-
 ### Installation
+
 
 Follow [these simple step-by-step instructions](http://flarum.org/docs/languages/) from the Flarum website.
 
