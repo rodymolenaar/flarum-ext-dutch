@@ -40,6 +40,7 @@ validation:
   min:
     numeric: ":attribute moet tenminste :min zijn."
     file: ":attribute moet tenminste :min kilobytes zijn."
+    string: ":attribute moet tenminste :min karakters bevatten."
     array: ":attribute moet tenminste :min items bevatten."
   not_in: ":attribute is ongeldig."
   numeric: ":attribute moet een nummer zijn."
