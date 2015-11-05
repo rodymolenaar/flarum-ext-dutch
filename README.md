@@ -42,7 +42,7 @@ composer require rodymol123/dutch
 5. Create a *rodymol123-dutch/* subdirectory into it.
 6. Upload all the content in the unpacked folder to this subdirectory.
 
-It's optional, but you can also add manually the Dutch language pack as Flarum's dependency. It allows you to automatically update the Dutch language pack update Flarum's dependencies by using Composer. Open [a text editor](https://en.wikipedia.org/wiki/Comparison_of_text_editors) the *composer.json* file located at the root of your Flarum installation (not the language pack one!) with a texteditor, then add to the list of Flarum's dependencies (which are listed below the `"require"` property) the following line in a new line:
+It's optional, but you can also add manually the Dutch language pack as Flarum's dependency. It allows you to automatically update the Dutch language pack update Flarum's dependencies by using Composer. Open the *composer.json* file located at the root of your Flarum installation (not the language pack one!) with [a text editor](https://en.wikipedia.org/wiki/Comparison_of_text_editors), then add to the list of Flarum's dependencies (which are listed below the `"require"` property) the following line in a new line:
 
 ```
         "rodymol123/dutch": "^1.0"
