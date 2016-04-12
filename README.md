@@ -27,10 +27,10 @@ This language pack is compatible with:
 
 ### Using Composer
 
-Flarum uses Composer to manage its dependencies and extensions. The Dutch language pack, available [on Packagist](https://packagist.org/packages/rodymol123/dutch), is also manageable with Composer. Make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following command in the location where Flarum is installed:
+Flarum uses Composer to manage its dependencies and extensions. The Dutch language pack, available [on Packagist](https://packagist.org/packages/rodymol123/flarum-ext-dutch), is also manageable with Composer. Make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following command in the location where Flarum is installed:
 
 ```
-composer require rodymol123/dutch
+composer require rodymol123/flarum-ext-dutch
 ```
 
 ### Manual Installation
@@ -45,7 +45,7 @@ composer require rodymol123/dutch
 It's optional, but you can also add manually the Dutch language pack as Flarum's dependency. It allows you to automatically update the Dutch language pack update Flarum's dependencies by using Composer. Open the *composer.json* file located at the root of your Flarum installation (not the language pack one!) with [a text editor](https://en.wikipedia.org/wiki/Comparison_of_text_editors), then add to the list of Flarum's dependencies (which are listed below the `"require"` property) the following line in a new line:
 
 ```
-        "rodymol123/dutch": "^1.0"
+        "rodymol123/flarum-ext-dutch": "^1.0"
 ```
 
 Note that you must add a colon at the end of this line if it is the last item of the dependency list, else it will stop the execution due to a parsing error.
