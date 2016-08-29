@@ -20,7 +20,7 @@ flarum-mentions:
     # These strings are displayed beneath individual posts.
     post:
       mentioned_by_text: "{users} heeft hierop gereageerd|{users} hebben hierop gereageerd"       # Can be pluralized to agree with the number of users!
-      mentioned_by_self_text: "{users} heeft hierop gereageerd|{users} hebben hierop gereageerd"  # Can be pluralized to agree with the number of users!
+      mentioned_by_self_text: "{users} hebt hierop gereageerd|{users} hebben hierop gereageerd"  # Can be pluralized to agree with the number of users!
       others_text: => core.ref.some_others
       reply_link: => core.ref.reply
       you_text: => core.ref.you
