@@ -2,7 +2,7 @@
     "name": "rodymol123/flarum-ext-dutch",
     "type": "flarum-extension",
     "description": "Dutch language pack.",
-    "homepage": "https://github.com/rodymol123/Flarum-nl-NL",
+    "homepage": "https://github.com/rodymolenaar/Flarum-nl-NL",
     "keywords": ["locale"],
     "license": "MIT",
     "authors": [
@@ -13,8 +13,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/rodymol123/Flarum-nl-NL/issues",
-        "source": "https://github.com/rodymol123/Flarum-nl-NL",
+        "issues": "https://github.com/rodymolenaar/Flarum-nl-NL/issues",
+        "source": "https://github.com/rodymolenaar/Flarum-nl-NL",
         "forum": "https://discuss.flarum.org/d/758-dutch-language-pack"
     },
     "require": {

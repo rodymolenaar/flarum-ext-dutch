@@ -40,8 +40,8 @@ flarum-subscriptions:
       ignoring_text: Word niet op de hoogte gesteld. Verberg van de discussielijst.
       not_following_button: Niet volgend
       not_following_text: Word op de hoogte gesteld wanneer je @genoemd wordt.
-      notify_email_tooltip: Ontvang een email wanneer er nieuwe berichten zijn geplaatst.
       notify_alert_tooltip: Ontvang een forum notificatie wanneer er nieuwe berichten zijn geplaatst.
+      notify_email_tooltip: Ontvang een email wanneer er nieuwe berichten zijn geplaatst.
 
   ##
   # REUSED STRINGS - These keys should not be used directly in code!
