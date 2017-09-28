@@ -4,7 +4,7 @@ core:
   # UNIQUE KEYS - The following keys are used in only one location each.
   ##
 
-  # Strings in this namespace are used by the admin interface.
+  # Translations in this namespace are used by the admin interface.
   admin:
 
     # These translations are used in the placeholder Add Extension modal dialog.
@@ -15,7 +15,7 @@ core:
       title: Extensie toevoegen
 
 
-    # These strings are used in the Appearance page.
+    # These translations are used in the Appearance page.
     appearance:
       colored_header_label: Gekleurde header
       colors_heading: Kleuren
@@ -25,9 +25,15 @@ core:
       dark_mode_label: Donkere stijl
       edit_css_button: Bewerk eigen CSS
       enter_hex_message: Kies a.u.b. een hexadecimale kleurcode.
+      edit_header_button: Header bewerken
+      enter_hex_message: Vul een hexadecimale kleurcode in.
+      favicon_heading: Favicon
+      favicon_text: Upload een afbeelding om weergegeven te worden als snelkoppeling.
+      logo_heading: Logo
+      logo_text: Upload een afbeelding om weergegeven te worden i.p.v. de forum titel.
       submit_button: => core.ref.save_changes
 
-    # These strings are used in the Basics page.
+    # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Standaard taal
@@ -42,7 +48,7 @@ core:
       welcome_banner_heading: Welkom banner
       welcome_banner_text: Configureer de tekst die wordt weergegeven in de banner op de 'Alle discussies' pagina. Gebruik dit om je gasten welkom te heten.
 
-    # These strings are used in the Dashboard page.
+    # These translations are used in the Dashboard page.
     dashboard:
       beta_warning_text: "Deze <strong>beta software</strong> is voornamelijk verspreid zodat je ons het kan helpen testen en het beter te maken, gebruik het niet in productie."
       contributing_text: "Wil je mee helpen zoeken naar bugs en meehelpen deze op te lossen? Lees de <a>Contributie documentatie</a>."
@@ -52,7 +58,7 @@ core:
       troubleshooting_text: "Heb je problemen? Volg de instructies in de <a>Probleemoplossing documentatie</a>."
       version_text: "Bedankt voor het proberen van Flarum! Je draait nu versie {version}."
 
-    # These strings are used in the Edit Group modal dialog.
+    # These translations are used in the Edit Group modal dialog.
     edit_group:
       color_label: Kleur
       delete_button: Verwijder groep
@@ -65,23 +71,21 @@ core:
       submit_button: => core.ref.save_changes
       title: Maak groep
 
-    # These strings are used in the Extensions page.
+    # These translations are used in the Extensions page.
     extensions:
       add_button: Voeg extensie toe
-      disable_button: Uitschakelen
-      enable_button: Inschakelen
       settings_button: => core.ref.settings
-      uninstall_button: Deinstalleren
+      uninstall_button: Deïnstalleren
 
-    # This string is used in the session dropdown menu.
+    # This translation is used in the session dropdown menu.
     header:
       log_out_button: => core.ref.log_out
 
-    # This string is used in the modal dialog displayed when loading extensions.
+    # This translation is used in the modal dialog displayed when loading extensions.
     loading:
       title: Even geduld...
 
-    # These strings are used in the navigation bar.
+    # These translations are used in the navigation bar.
     nav:
       appearance_button: Uiterlijk
       appearance_text: Pas de kleuren, logo's, en andere variabelen van je forum aan.
@@ -94,7 +98,7 @@ core:
       permissions_button: Permissies
       permissions_text: Stel in wie wat kan zien en doen.
 
-    # These strings are used in the Permissions page of the admin interface.
+    # These translations are used in the Permissions page of the admin interface.
     permissions:
       allow_renaming_label: Sta hernoemen toe
       allow_post_editing_label: Sta bericht bewerking toe
@@ -114,7 +118,7 @@ core:
       start_discussions_label: Start discussies
       view_discussions_label: Bekijk discussies
 
-    # These strings are used in the dropdown menus on the Permissions page.
+    # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
       allow_indefinitely_button: Voor onbepaalde tijd
       allow_some_minutes_button: "Voor {count} minuut|Voor {count} minuten"
@@ -128,40 +132,41 @@ core:
   # Strings in this namespace are used by the forum user interface.
   forum:
 
-    # These strings are used in the Change Email modal dialog.
+    # These translations are used in the Change Email modal dialog.
     change_email:
       confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
-    # These strings are used in the Change Password modal dialog.
+    # These translations are used in the Change Password modal dialog.
     change_password:
       send_button: Stuur e-mail
       text: klik op de onderstaande knop en check je e-mail voor een link om je wachtwoord te veranderen.
       title: => core.ref.change_password
 
-    # These strings are used by the composer controls.
+    # These translations are used by the composer controls.
     composer:
       close_tooltip: Sluiten
       exit_full_screen_tooltip: Sluit volledig scherm
       full_screen_tooltip: Volledig scherm
       minimize_tooltip: Minimaliseren
 
-    # These strings are used by the composer when starting a discussion.
+    # These translations are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: Schrijf een bericht...
       discard_confirmation: Je hebt je bericht nog niet geplaatst. Weet je zeker dat je wilt annuleren?
       submit_button: Plaatsen
+      title: => core.ref.start_a_discussion
       title_placeholder: Discussie titel
 
-    # These strings are used by the composer when editing a post.
+    # These translations are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: Je hebt je wijzigingen nog niet opgeslagen. Weet je zeker dat je wilt annuleren?
       post_link: "Bericht #{number} in {discussion}"
       submit_button: => core.ref.save_changes
 
-    # These strings are used by the composer when replying to a discussion.
+    # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
       discard_confirmation: Je hebt je reactie nog niet geplaatst. Weet je zeker dat je wilt annuleren?
@@ -169,7 +174,7 @@ core:
       submit_button: Plaats reactie
       view_button: Bekijk
 
-    # These strings are used by the discussion control buttons.
+    # These translations are used by the discussion control buttons.
     discussion_controls:
       cannot_reply_button: Je kan niet reageren
       cannot_reply_text: Je hebt geen permissie om op deze discussie te reageren.
@@ -178,11 +183,10 @@ core:
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Log in om te reageren
       rename_button: Hernoemen
-      rename_text: Kies een nieuwe titel voor deze discussie:
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
-    # These strings are used in the discussion list.
+    # These translations are used in the discussion list.
     discussion_list:
       empty_text: Het lijkt erop dat er nog geen discussies zijn. Waarom maak je er niet een aan?
       load_more_button: => core.ref.load_more
@@ -190,14 +194,21 @@ core:
       replied_text: "{username} heeft {ago} gereageerd"
       started_text: "{username} heeft {ago} gereageerd"
 
-    # These strings are used in the Edit User modal dialog (admin function).
+    # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
+      activate_button: Activeer gebruiker
+      email_heading: => core.ref.email
       email_label: => core.ref.email
+      groups_heading: Groepen
+      password_heading: => core.ref.password
       password_label: => core.ref.password
+      set_password_label: Stel een nieuw wachtwoord in
       submit_button: => core.ref.save_changes
+      title: Gebruiker bewerken
+      username_heading: => core.ref.username
       username_label: => core.ref.username
 
-    # These strings are used in the Forgot Password modal dialog.
+    # These translations are used in the Forgot Password modal dialog.
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
@@ -206,9 +217,10 @@ core:
       text: Vul je e-mailadres in, dan sturen we je een e-mail met een link om je wachtwoord opnieuw in te stellen
       title: Wachtwoord vergeten
 
-    # These strings are used in the header and session dropdown menu.
+    # These translations are used in the header and session dropdown menu.
     header:
       admin_button: Administratie
+      back_to_index_tooltip: Terug naar discussielijst
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Profiel
@@ -216,15 +228,16 @@ core:
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
-    # These strings are used on the index page, peripheral to the discussion list.
+    # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
       cannot_start_discussion_button: Can't Start Discussion
+      mark_all_as_read_confirmation: "Weet je zeker dat je alle discussies als gelezen wilt markeren?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Herladen
-      start_discussion_button: Start een discussie
+      start_discussion_button: => core.ref.start_a_discussion
 
-    # These strings are used by the sorting control above the discussion list.
+    # These translations are used by the sorting control above the discussion list.
     index_sort:
       latest_button: Laatste
       newest_button: Nieuwste
@@ -232,18 +245,18 @@ core:
       relevance_button: Relevantste
       top_button: Top
 
-    # These strings are used in the Log In modal dialog.
+    # These translations are used in the Log In modal dialog.
     log_in:
-      confirmation_required_message: "Je moet je e-mailadres bevestigen voordat je kan inloggen. We hebben een e-mail gestuurd naar {email}. Als je geen e-mail hebt ontvangen controleer dan je spam map."
       forgot_password_link: Wachtwoord vergeten?
       invalid_login_message: Logingegevens incorrect.
       password_placeholder: => core.ref.password
+      remember_me_label: Ingelogd blijven
       sign_up_text: "Nog geen account? <a>Registreren</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
       username_or_email_placeholder: Gebruikersnaam of e-mail
 
-    # These strings are used by the Notifications dropdown, a.k.a. "the bell".
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       discussion_renamed_text: "{username} heeft de titel veranderd"
       empty_text: Geen notificaties
@@ -251,38 +264,46 @@ core:
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
 
-    # These strings are used by tooltips displayed for individual posts.
+    # These translations are used by tooltips displayed for individual posts.
     post:
+      edited_text: Bijgewerkt
       edited_tooltip: "{username} heeft dit {ago} bewerkt"
       number_tooltip: "Bericht #{number}"
 
-    # These strings are used by the post control buttons.
+    # These translations are used by the post control buttons.
     post_controls:
       delete_button: => core.ref.delete
       delete_forever_button: => core.ref.delete_forever
       edit_button: => core.ref.edit
       restore_button: => core.ref.restore
 
-    # These strings are used in the scrubber to the right of the post stream.
+    # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
       now_link: Nu
       original_post_link: Origineel bericht
       unread_text: "{count} ongelezen"
       viewing_text: "{index} van {count} bericht|{index} van {count} berichten"
 
-    # These strings are displayed between posts in the post stream.
+    # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_text: "{username} heeft de titel veranderd van {old} naar {new}."
+      discussion_renamed_old_tooltip: 'De titel was: "{old}"'
+      discussion_renamed_text: "{username} heeft de titel veranderd naar {new}."
+      load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} later"
+    
+    # These translations are used by the rename discussion modal.
+    rename_discussion:
+      title: Discussie hernoemen
+      submit_button: => core.ref.rename
 
-    # These strings are used by the search results dropdown list.
+    # These translations are used by the search results dropdown list.
     search:
       all_discussions_button: 'Zoek in alle discussies naar "{query}"'
       discussions_heading: => core.ref.discussions
       users_heading: Gebruikers
 
-    # These strings are used in the Settings page.
+    # These translations are used in the Settings page.
     settings:
       account_heading: Account
       change_email_button: => core.ref.change_email
@@ -295,9 +316,8 @@ core:
       privacy_heading: Privacy
       title: => core.ref.settings 
 
-    # These strings are used in the Sign Up modal dialog.
+    # These translations are used in the Sign Up modal dialog.
     sign_up:
-      confirmation_message: => core.ref.confirmation_email_sent
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
       log_in_text: "Al een account? <a>Log in</a>"
@@ -307,60 +327,127 @@ core:
       username_placeholder: => core.ref.username
       welcome_text: "Welkom, {username}!"
 
-    # These strings are used in the user profile page and profile popup.
+    # These translations are used in the user profile page and profile popup.
     user:
       avatar_remove_button: Verwijder
       avatar_upload_button: Upload
+      avatar_upload_tooltip: Upload een nieuwe avatar
       bio_placeholder: Schrijf iets over jezelf
       discussions_link: => core.ref.discussions
+      in_discussion_text: "In {discussion}"
       joined_date_text: "Geregistreerd: {ago}"
       online_text: Online
       posts_load_more_button: => core.ref.load_more
       posts_link: Berichten
       settings_link: => core.ref.settings
 
-    # These strings are found on the user profile page (admin function).
+    # These translations are found on the user profile page (admin function).
     user_controls:
       button: Acties
       delete_button: => core.ref.delete
       delete_confirmation: Weet je zeker dat je deze gebruiker wilt verwijderen? Alle berichten van de gebruiker worden verwijdert.
       edit_button: => core.ref.edit
+    
+    # These translations are used in the alert that is shown when a new user has not confirmed their email address.
+    user_email_confirmation:
+      alert_message: => core.ref.confirmation_email_sent
+      resend_button: Bevestigings e-mail opnieuw sturen
+      sent_message: Verstuurd
 
-  # Strings in this namespace are used by the forum and admin interfaces.
+  # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
-    # These strings are displayed as tooltips for discussion badges.
+    # These translations are displayed as tooltips for discussion badges.
     badge:
       hidden_tooltip: Verborgen
 
-    # This string is displayed in place of the username of deleted user account.
-    deleted_user_text: "[verwijderd]"
+    # These translations are used to modify usernames.
+    username:
+      deleted_text: "[verwijderd]"
 
-    # These strings are displayed as error messages.
+    # These translations are displayed as error messages.
     error:
       generic_message: Oeps! Er is iets misgegaan. Herlaad de pagina en probeer het opnieuw.
       permission_denied_message: Je hebt geen permissie om dat te doen.
       not_found_message: Het opgevraagde kon niet worden gevonden.
       rate_limit_exceeded_message: Je gaat een beetje te snel. Probeer het over een paar seconden nog eens.
 
-    # These strings are used as suffixes when abbreviating numbers.
+    # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
       kilo_text: K
       mega_text: M
 
-    # These strings are used to punctuate a series of items.
+    # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
-      two_text: "{first} en {second}"
       three_text: "{first}, {second}, en {third}"
+      two_text: "{first} en {second}"
 
-  # Strings in this namespace are used in basic HTML interface.
-  basic:
-    loading_text: Laden...
-    load_error_message: Er ging iets mis bij het laden van de gehele site.
-    javascript_disabled_message: Je kan deze website het beste bekijken met een moderne browser met JavaScript.
-    next_page_button: Volgende pagina
-    previous_page_button: Vorige pagina
+  # Translations in this namespace are used in views other than Flarum's normal JS client.
+  views:
+
+    # Translations in this namespace are displayed by the basic HTML content loader.
+    content:
+      javascript_disabled_message: Deze website werkt het beste in een moderne browser met JavaScript ingeschakeld.
+      load_error_message: Er is iets misgegaan bij het laden van de volledige versie van deze website.
+      loading_text: Laden...
+
+    # Translations in this namespace are displayed in the basic HTML discussion view.
+    discussion:
+      next_page_button: => core.ref.next_page
+      previous_page_button: Vorige pagina
+
+    # Translations in this namespace are displayed by the basic HTML discussion index.
+    index:
+      all_discussions_heading: => core.ref.all_discussions
+      next_page_button: => core.ref.next_page
+
+    # Translations in this namespace are displayed by the Reset Password interface.
+    reset:
+      confirm_password_label: => core.ref.confirm_password
+      password_label: => core.ref.password
+      submit_button: Reset Password
+      title: => core.ref.reset_your_password
+
+  # Translations in this namespace are used in messages output by the API.
+  api:
+    invalid_username_message: "De gebruikersnaam mag alleen letters, cijfers en streepjes (-) bevatten."
+
+  # Translations in this namespace are used in emails sent by the forum.
+  email:
+
+    # These translations are used in emails sent when users register new accounts.
+    activate_account:
+      subject: Activeer je nieuwe account
+      body: |
+        Hoi {username}!
+        Iemand (hopelijk jij!) heeft zich aangemeld op {forum} met dit e-mailadres.
+        Als jij dit was, klik dan op deze link om je account te activeren:
+        {url}
+
+        Als jij je niet hebt aangemeld, kan je deze e-mail negeren.
+
+    # These translations are used in emails sent when users change their email address.
+    confirm_email:
+      subject: Bevestig je nieuwe e-mailadres
+      body: |
+        Hoi {username}!
+        Iemand (hopelijk jij!) heeft zijn e-mailadres op {forum} naar deze veranderd.
+        Als jij dit was, klik dan op deze link om je e-mailadres te bevestigen:
+        {url}
+
+        Als jij dit niet was, kan je deze e-mail negeren.
+
+    # These translations are used in emails sent when users ask to reset their passwords.
+    reset_password:
+      subject: => core.ref.reset_your_password
+      body: |
+        Hoi {username}!
+        Iemand (hopelijk jij!) heeft aangegeven zijn wachtwoord te zijn vergeten op {forum}.
+        Als jij dit was, klik dan op deze link om je wachtwoord opnieuw in te stellen:
+        {url}
+
+        Als jij dit niet was, kan je deze e-mail negeren. Dan gebeurt er niets.
 
   ##
   # REUSED STRINGS - These keys should not be used directly in code!
@@ -371,6 +458,7 @@ core:
     all_discussions: Alle discussies
     change_email: Verander e-mailadres
     change_password: Verander wachtwoord
+    confirm_password: Wachtwoord bevestigen
     confirmation_email_sent: "We hebben een verficatie e-mail gestuurd naar {email}. Als je geen e-mail hebt ontvangen controleer dan je spam map."
     delete: Verwijderen
     delete_forever: Permanent verwijderen
@@ -381,64 +469,22 @@ core:
     log_in: Inloggen
     log_out: Uitloggen
     mark_all_as_read: Alles als gelezen markeren
+    next_page: Volgende pagina
     notifications: Notificaties
     okay: Oké
     password: Wachtwoord
-    reply: Reageer                                 # Referenced by flarum-mentions.yml
-    restore: Herstellen
-    save_changes: Wijzigingen opslaan                   # Referenced by flarum-tags.yml
+    rename: Hernoemen
+    reply: Reageren                                     # Referenced by flarum-mentions.yml
+    reset_your_password: Wachtwoord opnieuw instellen
+    restore: Terugzetten
+    save_changes: Wijzigingen opslaan                   # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Instellingen
     sign_up: Registreren
-    some_others: "{count} andere|{count} andere"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    some_others: "{count} ander|{count} andere"         # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: Start een discussie
     username: Gebruikersnaam
     write_a_reply: Schrijf een reactie...
-    you: Jij                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
-
-  ##
-  # EMAIL CONTENT
-  ##
-
-  # Strings in this namespace are used in emails sent by the forum.
-  email:
-
-    # These strings are used in emails sent when users register new accounts.
-    activate_account:
-      subject: Activeer je account
-      body: |
-        Hey {username}!
-
-        Iemand (hopelijk jij!) heeft zich ingeschreven op {forum} met dit e-mailadres.
-
-        Als jij dit was, klik dan op de volgende link en je account zal worden geactiveerd:
-        {url}
-
-        Als jij dit niet was kan je deze e-mail negeren.
-
-    # These strings are used in emails sent when users change their email address.
-    confirm_email:
-      subject: Bevestig je e-mailadres
-      body: |
-        Hey {username}!
-
-        Iemand (hopelijk jij!) heeft zijn / haar e-mailadres op {forum} naar deze veranderd.
-
-        Als jij dit was, klik dan op de volgende link en je e-mailadres zal worden bevestigd:
-        {url}
-
-        Als jij dit niet was kan je deze e-mail negeren.
-
-    # These strings are used in emails sent when users ask to reset their passwords.
-    reset_password:
-      subject: Je wachtwoord opnieuw instellen
-      body: |
-        Hey {username}!
-
-        Iemand (hopelijk jij!) heeft gevraagd om zijn / haar wachtwoord te veranderen op {forum}.
-
-        Als jij dit was, klik dan op de volgende link. Dan kan je wachtwoord opnieuw instellen:
-        {url}
-
-        ALs je je wachtwoord niet wilt veranderen, negeer deze e-mail dan. Dan zal er niks gebeuren.
+    you: Jij                                            # Referenced by flarum-likes.yml, flarum-mentions.yml                                  # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES
