@@ -8,20 +8,25 @@ Extension to localize the Flarum forum software and its official extensions into
 
 This language pack is compatible with:
 
-- [Flarum](https://github.com/flarum/core) (Core) v0.1.0-beta.4
+- [Flarum](https://github.com/flarum/core) (Core) v0.1.0-beta.7
   - Bundled extensions:
-	  - [Flags](https://github.com/flarum/flags) v0.1.0-beta.4
-	  - [Likes](https://github.com/flarum/likes) v0.1.0-beta.3
-	  - [Lock](https://github.com/flarum/lock) v0.1.0-beta.3
-	  - [Mentions](https://github.com/flarum/mentions) v0.1.0-beta.3
-	  - [Pusher](https://github.com/flarum/pusher) v0.1.0-beta.3
-	  - [Reports](https://github.com/flarum/reports) v0.1.0-beta.4
-	  - [Sticky](https://github.com/flarum/sticky) v0.1.0-beta.3
-	  - [Subscriptions](https://github.com/flarum/subscriptions) v0.1.0-beta.4
-  	- [Tags](https://github.com/flarum/tags) v0.1.0-beta.4
+	  - [Akismet](https://github.com/flarum/flarum-ext-akismet) v0.1.0-beta.6
+	  - [Approval](https://github.com/flarum/flarum-ext-approval) v0.1.0-beta.7
+	  - [Facebook Auth](https://github.com/flarum/flarum-ext-auth-facebook) v0.1.0-beta.6
+	  - [Flags](https://github.com/flarum/flarum-ext-flags) v0.1.0-beta.7
+	  - [Github Auth](https://github.com/flarum/flarum-ext-auth-github) v0.1.0-beta.6
+	  - [Likes](https://github.com/flarum/flarum-ext-likes) v0.1.0-beta.6
+	  - [Lock](https://github.com/flarum/flarum-ext-lock) v0.1.0-beta.7
+	  - [Mentions](https://github.com/flarum/flarum-ext-mentions) v0.1.0-beta.7
+	  - [Pusher](https://github.com/flarum/flarum-ext-pusher) v0.1.0-beta.6
+	  - [Sticky](https://github.com/flarum/flarum-ext-sticky) v0.1.0-beta.7
+	  - [Subscriptions](https://github.com/flarum/flarum-ext-subscriptions) v0.1.0-beta.6
+	  - [Suspend](https://github.com/flarum/flarum-ext-suspend) v0.1.0-beta.7
+	  - [Tags](https://github.com/flarum/flarum-ext-tags) v0.1.0-beta.8
+	  - [Twitter Auth](https://github.com/flarum/flarum-ext-auth-twitter) v0.1.0-beta.6
   - Bundled libraries:
-      - [Laravel](https://github.com/laravel/laravel)'s Validation [5.1.11](https://github.com/laravel/laravel/releases/tag/v5.1.11)
-      - [Moment.js](https://github.com/moment/moment) [2.10.6](https://github.com/moment/moment/releases/tag/2.10.6)
+      - [Laravel](https://github.com/laravel/laravel)'s Validation [5.5.0](https://github.com/laravel/laravel/releases/tag/v5.1.11)
+      - [Moment.js](https://github.com/moment/moment) [2.18.1](https://github.com/moment/moment/releases/tag/2.18.1)
 
 ## Installation
 
