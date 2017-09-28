@@ -35,7 +35,7 @@ This language pack is compatible with:
 Flarum uses Composer to manage its dependencies and extensions. The Dutch language pack, available [on Packagist](https://packagist.org/packages/rodymolenaar/flarum-ext-dutch), is also manageable with Composer. Make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following command in the location where Flarum is installed:
 
 ```
-composer require rodymol123/flarum-ext-dutch
+composer require rodymolenaar/flarum-ext-dutch
 ```
 
 ### Manual Installation
