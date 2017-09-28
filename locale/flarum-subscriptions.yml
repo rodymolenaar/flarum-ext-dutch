@@ -28,7 +28,7 @@ flarum-subscriptions:
 
     # These strings are used in the Settings page.
     settings:
-      follow_after_reply_label: Automatisch discussies volgen waarop ik reageer
+      follow_after_reply_label: Automatisch discussies volgen als ik reageer
       notify_new_post_label: Iemand heeft gereageerd in een discussie die je volgt
 
     # These strings are used in the subscription menu displayed to the right of the post stream.

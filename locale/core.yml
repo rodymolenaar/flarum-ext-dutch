@@ -20,12 +20,14 @@ core:
       colored_header_label: Gekleurde header
       colors_heading: Kleuren
       colors_text: Kies twee kleuren om je forum mee vorm te geven. De eerste zal worden gebruikt als highlight-kleur, terwijl de tweede wordt gebruikt voor achtergrond elementen.
+      custom_header_heading: Eigen header
+      custom_header_text: "Voeg HTML toe om weergegeven te worden boven Flarum's eigen header."
       custom_styles_heading: Eigen stijl
       custom_styles_text: Pas je forum's uiterlijk aan doormiddel van eigen LESS/CSS code bovenop Flarum's standaard stijl.
       dark_mode_label: Donkere stijl
-      edit_css_button: Bewerk eigen CSS
+      edit_css_button: Eigen CSS bewerken
       enter_hex_message: Kies a.u.b. een hexadecimale kleurcode.
-      edit_header_button: Header bewerken
+      edit_header_button: Eigen header bewerken
       enter_hex_message: Vul een hexadecimale kleurcode in.
       favicon_heading: Favicon
       favicon_text: Upload een afbeelding om weergegeven te worden als snelkoppeling.
@@ -58,6 +60,12 @@ core:
       troubleshooting_text: "Heb je problemen? Volg de instructies in de <a>Probleemoplossing documentatie</a>."
       version_text: "Bedankt voor het proberen van Flarum! Je draait nu versie {version}."
 
+    # These translations are used in the Edit Custom CSS modal dialog.
+    edit_css:
+      customize_text: "Pas je forum's uiterlijk aan doormiddel van eigen LESS/CSS code bovenop Flarum's <a>standaard stijl</a>."
+      submit_button: => core.ref.save_changes
+      title: Eigen CSS bijwerken
+
     # These translations are used in the Edit Group modal dialog.
     edit_group:
       color_label: Kleur
@@ -70,6 +78,28 @@ core:
       singular_placeholder: Enkelboud (bijv. Moderator)
       submit_button: => core.ref.save_changes
       title: Maak groep
+    
+    # These translations are used in the Edit Custom Header modal dialog.
+    edit_header:
+      customize_text: "Voeg HTML toe om weergegeven te worden boven Flarum's eigen header."
+      submit_button: => core.ref.save_changes
+      title: Eigen header bijwerken
+
+    # These translations are used in the email page of the admin interface.
+    email:
+      account_heading: SMTP Account
+      addresses_heading: Adressen
+      driver_label: Driver
+      encryption_label: Versleuteling
+      from_label: Afzender
+      heading: => core.ref.email
+      host_label: Host
+      password_label: => core.ref.password
+      port_label: Poort
+      server_heading: SMTP Server
+      submit_button: => core.ref.save_changes
+      text: Configureer de SMTP instellingen en adressen die je forum gebruikt om e-mails te verzenden.
+      username_label: => core.ref.username
 
     # These translations are used in the Extensions page.
     extensions:
@@ -93,8 +123,10 @@ core:
       basics_text: Stel je forum titel, taal en andere basisinstellingen in.
       dashboard_button: Dashboard
       dashboard_text: Je forum in een oogopzicht
+      email_button: => core.ref.email
+      email_text: "Stel in hoe e-mails verzonden worden."
       extensions_button: Extensies
-      extensions_text: Voeg extra functionaliteit toe aab he forum en maak het echt de jouwe.
+      extensions_text: Voeg extra functionaliteit toe aan het forum en maak het echt de jouwe.
       permissions_button: Permissies
       permissions_text: Stel in wie wat kan zien en doen.
 
@@ -128,6 +160,15 @@ core:
       members_button: => core.group.members
       signup_closed_button: Gesloten
       signup_open_button: Open
+
+    # These translations are used in the Settings modal dialog.
+    settings:
+      submit_button: => core.ref.save_changes
+
+    # These translations are used in image upload buttons.
+    upload_image:
+      remove_button: Verwijderen
+      upload_button: Afbeelding kiezen...
 
   # Strings in this namespace are used by the forum user interface.
   forum:

@@ -6,11 +6,13 @@ validation:
   accepted: ":attribute moet worden geacepteerd."
   active_url: ":attribute is geen geldige URL."
   after: ":attribute moet een datum zijn na :date."
+  after_or_equal: ":attribute moet een datum na of :date zijn."
   alpha: ":attribute mag alleen letters bevatten."
   alpha_dash: ":attribute mag alleen letters, getallen, en strepen bevatten."
   alpha_num: ":attribute mag alleen letters en getallen bevatten."
   array: ":attribute moet een array zijn."
   before: ":attribute moet een datum zijn vóór :date."
+  before_or_equal: ":attribute moet een datum vóór of :date zijn."
   between:
     numeric: ":attribute moet tussen :min en :max zijn."
     file: ":attribute moet tussen :min en :max kilobytes zijn."
@@ -23,13 +25,18 @@ validation:
   different: ":attribute en :other moeten verschillen."
   digits: ":attribute moet :digits getallen bevatten."
   digits_between: ":attribute moet tussen de :min en :max getallen bevatten."
+  dimensions: ":attribute heeft ongeldige dimensies."
+  distinct: ":attribute heeft een dubbele waarde."
   email: ":attribute moet een geldig e-mailadres zijn."
   exists: ":attribute is ongeldig."
+  file: ":attribute moet een bestand zijn."
   filled: ":attribute is vereist."
   image: ":attribute moet een afbeelding zijn."
   in: ":attribute is ongeldig."
   integer: ":attribute moet een integer zijn."
   ip: ":attribute moet een geldig IP-adres zijn."
+  ipv4: ":attribute moet een geldig IPv4 adres zijn."
+  ipv6: ":attribute moet een geldig IPv6 adres zijn."
   json: ":attribute moet een geldige JSON string zijn."
   max:
     numeric: ":attribute mag niet groter zijn dan :max."
@@ -37,6 +44,7 @@ validation:
     string: ":attribute mag niet langer zijn dan :max karakters."
     array: ":attribute mag niet meer dan :max items bevatten."
   mimes: ":attribute moet een bestand zijn van type: :values."
+  mimetypes: ":attribute moet een bestand zijn van type: :values."
   min:
     numeric: ":attribute moet tenminste :min zijn."
     file: ":attribute moet tenminste :min kilobytes zijn."
@@ -44,9 +52,11 @@ validation:
     array: ":attribute moet tenminste :min items bevatten."
   not_in: ":attribute is ongeldig."
   numeric: ":attribute moet een nummer zijn."
+  present: ":attribute moet aanwezig zijn."
   regex: ":attribute formaat is ongeldig."
   required: ":attribute veld is vereist."
   required_if: ":attribute is vereist wanneer :other :value is."
+  required_unless: ":attribute is vereist tenzij :other aanwezig is in :values."
   required_with: ":attribute is vereist wanneer :values aanwezig is."
   required_with_all: ":attribute is vereist wanneer :values aanwezig zijn."
   required_without: ":attribute is vereist wanneeer :values niet aanwezig is."
@@ -60,6 +70,7 @@ validation:
   string: ":attribute moet een string zijn."
   timezone: ":attribute moet een geldige zone zijn."
   unique: ":attribute is al in gebruik."
+  uploaded: ":attribute kon niet geüpload worden."
   url: ":attribute formaat is ongeldig."
 
   attributes:
@@ -70,3 +81,5 @@ validation:
     content: inhoud
     name_singular: naam enkelvoud
     name_plural: naam meervoud
+    tag_count_primary: aantal primaire categorieën
+    tag_count_secondary: aantal secundaire categorieën
