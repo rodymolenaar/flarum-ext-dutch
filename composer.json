@@ -18,7 +18,7 @@
         "forum": "https://discuss.flarum.org/d/758-dutch-language-pack"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.4"
+        "flarum/core": "^0.1.0-beta.7"
     },
     "suggest": {
         "flarum/flags": "Allow users to flag posts for moderator review",

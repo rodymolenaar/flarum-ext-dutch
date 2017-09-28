@@ -7,6 +7,14 @@ core:
   # Strings in this namespace are used by the admin interface.
   admin:
 
+    # These translations are used in the placeholder Add Extension modal dialog.
+    add_extension:
+      developer_text: "Als je een developer bent, kan je de <a>documentatie lezen</a> en je eigen extensies maken."
+      install_text: "In de tussentijd kan je extensies zoeken op de <a>Flarum Community site</a> en deze handmatig installeren met Composer."
+      temporary_text: "Ooit in de niet zo verre toekomst zal je met deze knop extensies kunnen installeren. We zijn er mee bezig!"
+      title: Extensie toevoegen
+
+
     # These strings are used in the Appearance page.
     appearance:
       colored_header_label: Gekleurde header
@@ -29,6 +37,7 @@ core:
       home_page_heading: Homepage
       home_page_text: Kies de pagina die gebruikers voor het eerst te zien krijgen wanneer ze je forum bezoeken. Als je zelf een waarde typt, gebruik dan het path relatief aan de forum root.
       saved_message: De wijzigingen zijn opgeslagen
+      show_language_selector_label: Toon taalkiezer
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Welkom banner
       welcome_banner_text: Configureer de tekst die wordt weergegeven in de banner op de 'Alle discussies' pagina. Gebruik dit om je gasten welkom te heten.
@@ -142,20 +151,20 @@ core:
     # These strings are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: Schrijf een bericht...
-      discard_confirmation: Je hebt je discussie nog niet geplaatst. Wil je deze weggooien?
-      submit_button: Maak discussie
+      discard_confirmation: Je hebt je bericht nog niet geplaatst. Weet je zeker dat je wilt annuleren?
+      submit_button: Plaatsen
       title_placeholder: Discussie titel
 
     # These strings are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: Je hebt je wijzigingen niet opgeslagen. Wil je deze weggooien?
+      discard_confirmation: Je hebt je wijzigingen nog niet opgeslagen. Weet je zeker dat je wilt annuleren?
       post_link: "Bericht #{number} in {discussion}"
       submit_button: => core.ref.save_changes
 
     # These strings are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: Je hebt je reactie nog niet geplaatst. Wil je deze weggooien?
+      discard_confirmation: Je hebt je reactie nog niet geplaatst. Weet je zeker dat je wilt annuleren?
       posted_message: Je reactie is geplaatst.
       submit_button: Plaats reactie
       view_button: Bekijk
@@ -284,7 +293,7 @@ core:
       notify_discussion_renamed_label: Iemand heeft een discussie die jij hebt gestart hernoemd
       privacy_disclose_online_label: Laat anderen zien wanneer ik online ben
       privacy_heading: Privacy
-      title: => core.ref.settings
+      title: => core.ref.settings 
 
     # These strings are used in the Sign Up modal dialog.
     sign_up:
