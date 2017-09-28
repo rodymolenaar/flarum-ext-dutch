@@ -1,7 +1,7 @@
 {
     "name": "rodymolenaar/flarum-ext-dutch",
     "type": "flarum-extension",
-    "description": "Dutch language pack.",
+    "description": "Dutch language pack for Flarum.",
     "homepage": "https://github.com/rodymolenaar/Flarum-nl-NL",
     "keywords": ["locale"],
     "license": "MIT",
