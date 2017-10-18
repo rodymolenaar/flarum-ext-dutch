@@ -46,6 +46,10 @@ You can also manually ADD the Dutch language pack as Flarum's dependency. Open t
         "rodymolenaar/flarum-ext-dutch": "^1.0"
 ```
 
+### Third party extensions
+
+This language pack does not supply translations for third party extensions. If you need an extension translated you should either contact the extension creator or create it yourself. You can also ask me to do it, maybe I'll have some sparetime ;)
+
 ### License
 
 Released under the MIT License. Please see the [LICENSE](https://github.com/rodymolenaar/Flarum-nl-NL/blob/master/LICENSE) file.
